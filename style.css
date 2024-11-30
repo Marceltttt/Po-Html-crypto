@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    background-color: #1a1a1a; /* Background color */
+    color: #ffffff; /* Text color */
+}
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 40px;
+    text-align: center;
+}
+footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.button {
+    background-color: #ad6103;
+    color: #ffffff;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.button:hover {
+    background-color: #e67e22;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+body.home {
+    background-image: url(crypto\ background.png);
+    background-size: 150% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+body.contact {
+    background-image: url(contact.png); 
+    background-size: 150% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body.nieuws {
+    background-image: url(gradient-blue-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body.prices {
+    background-image: url(pricesbackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main article a {
+    color: aqua;
+}
+#chart-section {
+    margin: 50px auto;
+    width: 90%;
+    max-width: 40px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+}
+canvas {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #222;
+    border-radius: 8px;
+}
